@@ -1,7 +1,12 @@
-# Book Quick Starter Kit
+# Book Quick Starter Kit (Manuscripts Edition)
 
-Write Your Own Book in Plain Text (with Markdown)
+Write your own book in plain text (with Markdown).
 
+## What's included?
+
+- A first page  (see [`1-first-page.md`](1-first-page.md)) incl. an image (e.g. `500x150.gif`)
+- A second page (see [`2-second-page.md`](2-second-page.md))
+- A book info record (see [`book.yml`](book.yml)) incl. title, author, year, etc.
 
 
 ## License

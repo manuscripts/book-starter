@@ -2,10 +2,12 @@
 
 Here are a couple more examples of markdown elements. Here we have a blockquote:
 
-> Don't think about making art, just get it done. Let everyone else decide if it's good or bad,
-> whether they love it or hate it. While they are deciding, make even more art.
+> The overriding design goal for Markdown's formatting syntax is to make it
+> as readable as possible. The idea is that a Markdown-formatted document should be
+> publishable as-is, as plain text, without looking like it's been marked up with
+> tags or formatting instructions. 
 >
-> -- Andy Warhol
+> -- John Gruber
 
 And a numbered list:
 
@@ -15,10 +17,11 @@ And a numbered list:
 
 And a code block (with syntax highlighting).
 
-```ruby
-require 'kramdown'
-doc = Kramdown::Document.new( "Hello, World!" )
-puts doc.to_html
+```yaml
+title: Your Book Title Here
+author:
+  name:  Your Name Here
+year:  2016
 ```
 
 And a horizontal rule.
